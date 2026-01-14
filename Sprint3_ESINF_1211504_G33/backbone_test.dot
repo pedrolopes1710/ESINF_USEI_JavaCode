@@ -1,0 +1,11 @@
+graph G {
+    layout=neato;
+    node [shape=circle, style=filled, fillcolor=lightblue];
+    "B" [pos="2.000000,4.000000!"];
+    "A" [pos="0.000000,0.000000!"];
+    "D" [pos="6.000000,4.000000!"];
+    "C" [pos="4.000000,0.000000!"];
+    "B" -- "C" [label="2"];
+    "A" -- "C" [label="3"];
+    "B" -- "D" [label="5"];
+}
